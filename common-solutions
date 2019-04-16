@@ -1,0 +1,2 @@
+Running shell scripts written / edited in Windows on Linux: beware text encoding!
+- https://stackoverflow.com/questions/2920416/configure-bin-shm-bad-interpreter

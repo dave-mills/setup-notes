@@ -1,0 +1,19 @@
+#### GIT ALIASES
+
+# fancy log thing from Laracasts
+alias glog='git log --graph --pretty=format:'\''%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset'\'' --abbrev-commit'
+
+# other, more boring ones
+alias ga='git add'
+alias gaa='git add .'
+alias gc='git commit -m'
+alias gac='git add .; git commit -m'
+alias gs='git status'
+alias gp='git push'
+alias gpp='git fetch && git pull'
+
+#### PHP stuff
+
+alias art='php artisan'
+alias sart='php -S localhost:3000 statamic/server.php'
+alias nah='git reset --hard && git clean -df'
