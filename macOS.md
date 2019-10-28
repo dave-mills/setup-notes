@@ -1,5 +1,8 @@
 # Software Installations
 
+macapps.link: curl -s 'https://api.macapps.link/en/chrome-bettertouchtool-dropbox-drive-carboncopycloner-fantastical-sequelpro-sublime-espresso-postman-iterm-bartender-istatmenus-gemini-vlc-steam-plex-handbrake-skype-slack-whatsapp-discord' | sh
+
+
 ## Utility
 - [1Password](https://1password.com/downloads/mac/)
 - [Dropbox](https://www.dropbox.com/install)
