@@ -1,12 +1,24 @@
 # Sublime Text - Setup
 Things to make Sublime nicer to use:
 
+
+## Core:
+
+- Open your entire working directory into Sublime (probably the github project, or R-Shiny project folder), not just individual files.
+
+- **ctrl-p / cmd-p**: Brings up the file-search box. Start typing a file or folder path, and it searches through your entire working directory. Uses Partial Matching so you don't need to type the full path to the file to open it.
+ - When in this search, use @ to switch to searching for named functions within the file. 
+
+- **ctrl-shift-p / cmd-shift-p**: Brings up the command pallate. Type to search through the list of available commands (including ones from installed packages).
+
+- Install the Package manager. This is needed to install any other package: https://packagecontrol.io/installation 
+
 ## Use Projects to quickly switch between different pieces of work
 1. Save the project (Project -> Save Project As). This creates a sublime project file and assigns your current window to it.
 
 2. Opened project folders and open files will be persisted - so when you come back to the project, it'll be exactly as you left it.
 
-3. Quick switch between projects with Ctrl-Cmd-P.
+3. Quick switch between projects with **Ctrl-Alt-P / Ctrl-Cmd-P**.
  - This apparently isn't default on Windows. To enable it, go to Preferences -> Key bindings and add the following to the user settings:
     `{ "keys": ["ctrl+alt+p"], "command": "prompt_select_workspace" }`
 
