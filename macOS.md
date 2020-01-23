@@ -41,8 +41,8 @@ Move .zshrc and .aliases into ~/ folder.
 brew install php
 brew services start php
 
-brew install mysql@5.7
-brew services start mysql@5.7
+brew install mysql
+brew services start mysql
 
 brew install redis
 ln -sfv /usr/local/opt/redis/*.plist ~/Library/LaunchAgents
