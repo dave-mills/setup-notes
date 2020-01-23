@@ -15,7 +15,7 @@ macapps.link: curl -s 'https://api.macapps.link/en/chrome-bettertouchtool-dropbo
 
 ## Work
 - Sublime 3
-- Sequel Pro
+- Sequel Pro / TablePlus
 - Office365
 - Chrome
 
