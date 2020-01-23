@@ -1,4 +1,26 @@
 # Software Installations
+Macapps link to automatically download the following apps:
+ - chrome
+ - dropbox
+ - google drive
+ - carbon copy cloner
+ - fantastical
+ - sequelpro
+ - sublime text
+ - espresso
+ - postman
+ - iterm
+ - bartender
+ - istat menus
+ - gemini
+ - vlc
+ - steam
+ - plex
+ - handbrake
+ - skype
+ - slack
+ - whatsapp
+ - discord
 
 macapps.link: curl -s 'https://api.macapps.link/en/chrome-bettertouchtool-dropbox-drive-carboncopycloner-fantastical-sequelpro-sublime-espresso-postman-iterm-bartender-istatmenus-gemini-vlc-steam-plex-handbrake-skype-slack-whatsapp-discord' | sh
 
@@ -10,7 +32,6 @@ macapps.link: curl -s 'https://api.macapps.link/en/chrome-bettertouchtool-dropbo
 - Karabiner Elements (Desktop only)
 - Alfred
 - Bartender
-- 
 
 
 ## Work
