@@ -73,6 +73,9 @@ brew install youtube-dl
 
 ```
 
+RMySQL cannot use caching_sha2_password plugin without this extra install:
+`brew install mariadb-connector-c`
+
 ## Composer etc
 
 ```
