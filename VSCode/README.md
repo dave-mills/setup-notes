@@ -47,4 +47,25 @@ I recommend installing via composer:
  
  
  ## Setup Settings:
- My custom settings are in this folder for reference. 
+ My custom settings are in this folder for reference. Below are the specific settings I recommend trying for yourself:
+ 
+ - Set files to autosave: `"files.autoSave": "onFocusChange",`
+ - Keep your line ends tidy:  `"files.trimTrailingWhitespace": true,`
+ - Run auto formatting and PHP CS Fixer automatically on save. This is very important as both the PHP CS Fixer and other auto formatting tools (SCSS Formatter, ESLint) are useful to ensure a consistent formatting of code using common standards.
+ 
+```
+"php-cs-fixer.onsave": true,
+"editor.formatOnSave": true,
+```
+
+- A few other important settings for php-cs-fixer specically. I found that I had to use the **absolute** path for the php-cs-fixer.executablePath and config files: 
+
+```
+"php-cs-fixer.autoFixBySemicolon": true,
+
+"[php]": {
+    "editor.defaultFormatter": "junstyle.php-cs-fixer"
+},
+"php-cs-fixer.executablePath": "/Users/dave/.composer/vendor/bin/php-cs-fixer",
+"php-cs-fixer.config": "/Users/dave/.php_cs",
+```
