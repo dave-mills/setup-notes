@@ -47,7 +47,7 @@ I recommend installing via composer:
  
  
  ## Setup Settings:
- My custom settings are in this folder for reference. Below are the specific settings I recommend trying for yourself:
+ My custom settings are in this folder for reference. Below are the specific settings I recommend trying for yourself (copy/overwite these keys in your settings.json user file)
  
  - Set files to autosave: `"files.autoSave": "onFocusChange",`
  - Keep your line ends tidy:  `"files.trimTrailingWhitespace": true,`
