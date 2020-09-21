@@ -1,0 +1,56 @@
+{
+    "editor.find.autoFindInSelection": "always", // test
+    "editor.detectIndentation": false,
+    "editor.fontFamily": "Source Code Pro",
+    "editor.fontSize": 17,
+    "window.openFilesInNewWindow": "on",
+    "files.autoSave": "onFocusChange",
+    "editor.tabCompletion": "off",
+    "editor.tabSize": 4,
+    "files.trimTrailingWhitespace": true,
+    "editor.wordWrap": "on",
+    "editor.formatOnPaste": true,
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.snippetSuggestions": "top",
+    "workbench.colorTheme": "Monokai",
+    "files.watcherExclude": {
+        "**/.git/objects/**": true,
+        "**/.git/subtree-cache/**": true,
+        "**/node_modules/*/**": true,
+        "**/vendor/*/**": true
+    },
+    "editor.quickSuggestionsDelay": 5,
+    "workbench.settings.openDefaultKeybindings": true,
+    "workbench.settings.openDefaultSettings": true,
+    "workbench.settings.useSplitJSON": true,
+    "importCost.typescriptExtensions": [
+        "\\.vue?$"
+    ],
+    "eslint.alwaysShowStatus": true,
+    "eslint.validate": [
+        "vue",
+        "vue-html"
+    ],
+    "phpConstructor.visibility": "public",
+    "templateLiteralEditor.regexes": {
+        "blade": "(<<<['\"]?EOD['\"]?)([\\s\\S]*?)(EOD)",
+        "php": "(<<<['\"]?EOD['\"]?)([\\s\\S]*?)(EOD)",
+    },
+    "[blade]": {},
+    "window.zoomLevel": 0,
+    "workbench.iconTheme": "file-icons",
+    "workbench.sideBar.location": "left",
+    "editor.renderWhitespace": "none",
+    "workbench.settings.editor": "json",
+    "php-cs-fixer.autoFixBySemicolon": true,
+    "php-cs-fixer.onsave": true,
+    "[php]": {
+        "editor.defaultFormatter": "junstyle.php-cs-fixer"
+    },
+    "php-cs-fixer.executablePath": "/Users/dave/.composer/vendor/bin/php-cs-fixer",
+    "php-cs-fixer.config": "/Users/dave/.php_cs",
+    "diffEditor.ignoreTrimWhitespace": false,
+    "editor.formatOnSave": true,
+    "emmet.triggerExpansionOnTab": true,
+    "emmet.showSuggestionsAsSnippets": true
+}
