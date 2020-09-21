@@ -18,6 +18,12 @@ these notes are for my current VS code set up – including mainly PHP/Laraval d
 - Auto Close Tag
 - Auto Rename Tag
 
+Note - to get the full intelephense working for a Laravel project, you should setup laravel-ide-helper for the project:
+ - `composer require barryvdh/laravel-ide-helper --dev`
+ - `php artisan ide-helper:generate`
+ - `php artisan ide-helper:models` (select no to not add all the helper text to the individual model files)
+ - `php artisan ide-helper:meta`
+
 
 **Shortcuts / Snippets etc**
 - PHP Constructor
