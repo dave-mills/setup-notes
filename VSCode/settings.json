@@ -49,8 +49,10 @@
     },
     "php-cs-fixer.executablePath": "/Users/dave/.composer/vendor/bin/php-cs-fixer",
     "php-cs-fixer.config": "/Users/dave/.php_cs",
+    "php-cs-fixer.exclude": ["vendor"],
     "diffEditor.ignoreTrimWhitespace": false,
     "editor.formatOnSave": true,
     "emmet.triggerExpansionOnTab": true,
-    "emmet.showSuggestionsAsSnippets": true
+    "emmet.showSuggestionsAsSnippets": true,
+    
 }
