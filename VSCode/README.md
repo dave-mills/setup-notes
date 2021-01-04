@@ -46,14 +46,19 @@ Note - to get the full intelephense working for a Laravel project, you should se
 - Text Pastry
 - Markdown All in One
 
-## Setup PHP CS Fixer
+## Setup Autoformatters
+
+### PHP-CS Fixer
 I recommend installing via composer:
  -  `composer global require friendsofphp/php-cs-fixer`
  - ensure composer folder is in your path (however that works in your OS!)
  
+### ESLint
+Install via npm or yarn. I install globally (`npm i -g eslint`) as I want to use it in all my projects. I have a global .eslintrc file (placed in my home user folder) with standard settings. If a specific project needs different settings, that can be overridden by adding a .eslintrc file into the project root.
+
  
- ## Setup Settings:
- My custom settings are in this folder for reference. Below are the specific settings I recommend trying for yourself (copy/overwite these keys in your settings.json user file)
+## Setup Settings:
+My custom settings are in this folder for reference. Below are the specific settings I recommend trying for yourself (copy/overwite these keys in your settings.json user file)
  
  - Set files to autosave: `"files.autoSave": "onFocusChange",`
  - Keep your line ends tidy:  `"files.trimTrailingWhitespace": true,`
