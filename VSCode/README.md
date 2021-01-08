@@ -56,6 +56,15 @@ I recommend installing via composer:
 ### ESLint
 Install via npm or yarn. I install globally (`npm i -g eslint`) as I want to use it in all my projects. I have a global .eslintrc file (placed in my home user folder) with standard settings. If a specific project needs different settings, that can be overridden by adding a .eslintrc file into the project root.
 
+### Formatter / Linter Settings:
+I recommend defining a 'global' settings file for both PHP-CS Fixer and ESLint. This way, you always have your standard settings available, and you can override them for specific projects if needed by adding a settings file into the project root. 
+
+My settings are here:
+
+ - PHP-CS: https://github.com/dave-mills/dotfiles/blob/master/.php_cs
+ - ESLint: https://github.com/dave-mills/dotfiles/blob/master/.eslintrc
+ 
+ Put these into your user home folder. Works on Mac, hopefully works on Windows... (haven't tested).
  
 ## Setup Settings:
 My custom settings are in this folder for reference. Below are the specific settings I recommend trying for yourself (copy/overwite these keys in your settings.json user file)
